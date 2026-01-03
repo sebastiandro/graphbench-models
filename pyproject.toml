@@ -1,0 +1,9 @@
+[project]
+name = "graphbench-models"
+version = "0.1.0"
+description = "A repository of models evaluated on GraphBench tasks"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "optuna>=4.6.0",
+]
