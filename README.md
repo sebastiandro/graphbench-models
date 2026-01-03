@@ -5,8 +5,7 @@ A repository of models evaluated on GraphBench tasks
 For now, we install the GraphBench library from source:
 
 ```bash
-git clone https://github.com/graphbench/package
-pip install -e package/
+uv pip install git+https://github.com/graphbench/package
 ```
 
 ## Tasks

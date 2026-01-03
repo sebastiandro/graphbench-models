@@ -3,7 +3,11 @@ name = "graphbench-models"
 version = "0.1.0"
 description = "A repository of models evaluated on GraphBench tasks"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
+    "ipykernel>=7.1.0",
     "optuna>=4.6.0",
+    "numpy<2", # due to my local macbook
+    "matplotlib>=3.10.8",
+    "ipywidgets>=8.1.8",
 ]
